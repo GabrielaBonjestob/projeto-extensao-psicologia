@@ -1,0 +1,243 @@
+/* Definindo a fonte padrão e o fundo do site */
+body {
+    background-color: #f1e6f3;  /* Tom nude suave de roxo */
+    color: #6a3e8c;  /* Texto em roxo escuro */
+    font-family: 'Arial', sans-serif;
+}
+.paragrafo {
+    color: #000;
+}
+
+hr {
+    border: 2px double #8A2BE2; /* Adicionando a espessura, estilo e cor */
+    width: 100%;
+}
+
+formpag {
+    border-radius: 2px;
+    color: #f1e6f3;
+}
+
+
+/* Configuração do cabeçalho */
+header {
+    background-color: #d29ae9; /* Cor de fundo roxa no cabeçalho */
+    color: white; /* Texto branco no cabeçalho */
+    height: 150px; /* Define uma altura fixa para o cabeçalho */
+    padding: 15px 0; /* Ajusta o espaçamento interno */
+    text-align: center; /* Centraliza o texto */
+    background-size: cover; /* Ajusta o fundo para cobrir toda a área */
+    background-position: center; /* Centraliza a imagem de fundo, se houver */
+}
+
+header h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+
+/* Ajustes para os artigos e frases */
+.card {
+    background-color: #e6d8f7;  /* Tom lilás suave */
+    border: 2px solid #d0a6e0;  /* Borda lilás mais escura */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin: 20px 0;
+    padding: 20px;
+    text-align: center;
+}
+
+.card h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.card p {
+    font-size: 1em;
+}
+
+/* Estilo para os cabeçalhos principais */
+h1, h2, h3 {
+    color: #7c22c2;  /* Cor de roxo escuro para cabeçalhos */
+}
+h4 {}
+
+/* Ajustes nos botões */
+.btn-primary {
+    background-color: #9b59b6;  /* Cor roxa para os botões */
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.btn-primary:hover {
+    background-color: #8e44ad;  /* Tom mais escuro de roxo no hover */
+}
+
+/* Estilo para links */
+a {
+    color: #9b59b6;  /* Cor roxa nos links */
+    text-decoration: none;
+}
+
+a:hover {
+    color: #8e44ad;  /* Cor mais escura de roxo no hover */
+}
+
+/* Configuração para a seção de slides */
+.carousel-inner {
+    background-color: #f1e6f3;  /* Manter o fundo lilás suave nos slides */
+}
+
+/* Definindo o estilo do mapa */
+#map {
+    height: 400px;  /* Tamanho adequado para o mapa */
+    width: 100%;
+}
+
+/* Estilo para o rodapé */
+footer {
+    background-color: #9b59b6;  /* Fundo roxo no rodapé */
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+footer p {
+    font-size: 1em;
+}
+
+/* Estilo específico para a seção de psicólogos */
+#psychologists-section {
+    background-color: #e6d8f7;  /* Fundo lilás suave */
+    padding: 30px 0;
+    text-align: center;
+}
+
+#psychologists-section h2 {
+    font-size: 2.5em;
+    color: #6a3e8c;  /* Cor roxa escura para o título */
+}
+
+/* Seção de apresentação do projeto */
+#purpose-section {
+    background-color: #f1e6f3;  /* Fundo lilás suave */
+    padding: 30px 0;
+}
+
+#purpose-section h2 {
+    color: #6a3e8c;
+    font-size: 2.5em;
+}
+
+#purpose-section ul {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+#purpose-section ul li {
+    background-color: #e6d8f7;  /* Fundo lilás suave */
+    border: 2px solid #d0a6e0;  /* Borda lilás mais escura */
+    padding: 20px;
+    width: 200px;
+    text-align: center;
+}
+
+#purpose-section ul li h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+/* Configuração do formulário */
+form {
+    background-color: #f9f9f9;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+form button {
+    background-color: #9b59b6;  /* Cor do botão de envio */
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+form button:hover {
+    background-color: #8e44ad;
+}
+
+/* Mensagens de erro e sucesso */
+.success-message {
+    color: #2ecc71;  /* Cor verde para sucesso */
+    font-size: 1.2em;
+}
+
+.error-message {
+    color: #e74c3c;  /* Cor vermelha para erro */
+    font-size: 1.2em;
+}
+
+.bg-custom {
+    background-color: #e2b7e6; /* Tom de roxo/lilás */
+    color: #8A2BE2; /* Deixe o texto branco para contrastar */
+}
+
+.carousel-inner img {
+    width: 100%; /* Mantém a largura total */
+    height: 60vh; /* Ajusta a altura para 60% da altura da tela */
+    object-fit: cover; /* Garante que a imagem preencha o espaço sem distorcer */
+}
+
+.carousel-caption {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 15px;
+    text-align: center;
+    color: #fff;
+    background: rgba(0, 0, 0, 0.5); /* Para destacar o texto */
+}
+
+.carousel-caption h3 {
+    color: #000;
+}
+
+i {
+    margin-bottom: 10px; /* Ajuste o valor conforme necessário */
+}
+
+.cor-frase {
+    background-color: #fae8fc;
+    border: 2px solid #9b67c9; /* Cor da borda*/
+    box-sizing: border-box; /* Garante que o padding não "estique" o tamanho */
+    height: 100%; 
+    border-radius: 5px; 
+    padding: 20px; /* Espaçamento interno */
+    margin: 0 auto; /* Centraliza o conteúdo */
+    max-width: 300px; /* Define largura máxima */
+}
+
+#profissionais iframe {
+    max-width: 100%; /* Limita o tamanho máximo */
+    height: 300px;   /* Define uma altura fixa */
+    border-radius: 10px; /* Adiciona bordas arredondadas */
+    border: 2px solid #8A2BE2; /* Adiciona uma borda */
+}
